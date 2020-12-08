@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<div class="chat-container">
+    <div class="chat-header">
+        <div class="logo">
+            <i class="fab fa-facebook-messenger"></i>
+            <h3>Messenger</h3>
+        </div>
+        <p id="your-name">Your Name</p>
+    </div>
+    <!--<! &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; >-->
+    <div class="chat-section">
+        <div class="main-wrapper">
+            <div class="chat-content">
+                <div class="message">
+                    <div class="message-row other-message">
+                        <!--<div class="message-title">
+                            👻<span>Dev At</span>
+                        </div>
+                        <div class="message-text">
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                            hello my name is ahmad montazeri how are you
+                        </div>
+                        <div class="message-time">
+                            April 2020
+                        </div>-->
+                    </div>
+                    <div class="message-row you-message">
+<!--                        <div class="message-title">
+                            👻<span>User 1</span>
+                        </div>
+                        <div class="message-text">
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                            hello my name is ahmad montazeri
+                        </div>
+                        <div class="message-time">
+                            April 2020
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <!--//-->
+            <form class="msg-text">
+                <input type="text" name="msg" id="msg" placeholder="Type Message Here...." autocomplete="off">
+                <button id="btn-send">
+                    <i class="fas fa-paper-plane"> Send</i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
